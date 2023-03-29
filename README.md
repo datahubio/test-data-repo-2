@@ -39,7 +39,70 @@ prices introduced in 1993.
 
 ## Vega and Vega Lite
 
-TODO
+```
+<VegaLite data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
+```
+
+<VegaLite data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
+
+
+```
+<VegaLite fullWidth data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
+```
+
+<VegaLite fullWidth data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
+
+## Line chart
+
+```
+<LineChart data={
+    [
+      ["1850",-0.41765878],
+      ["1851",-0.2333498],
+      ["1852",-0.22939907],
+      ["1853",-0.27035445],
+      ["1854",-0.29163003]
+    ]
+  }
+  />
+```
+
+<LineChart data={
+    [
+      ["1850",-0.41765878],
+      ["1851",-0.2333498],
+      ["1852",-0.22939907],
+      ["1853",-0.27035445],
+      ["1854",-0.29163003]
+    ]
+  }
+/>
+
+
+```
+<LineChart fullWidth data={
+    [
+      ["1850",-0.41765878],
+      ["1851",-0.2333498],
+      ["1852",-0.22939907],
+      ["1853",-0.27035445],
+      ["1854",-0.29163003]
+    ]
+  }
+  />
+```
+
+<LineChart fullWidth data={
+    [
+      ["1850",-0.41765878],
+      ["1851",-0.2333498],
+      ["1852",-0.22939907],
+      ["1853",-0.27035445],
+      ["1854",-0.29163003]
+    ]
+  }
+/>
+
 
 ## Image
 
