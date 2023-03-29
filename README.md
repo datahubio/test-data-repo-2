@@ -40,17 +40,17 @@ prices introduced in 1993.
 ## Vega and Vega Lite
 
 ```
-<VegaLite data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
+<VegaLite data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "width": "container", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
 ```
 
-<VegaLite data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
+<VegaLite data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "width": "container", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
 
 
 ```
-<VegaLite fullWidth data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
+<VegaLite fullWidth data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "width": "container", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
 ```
 
-<VegaLite fullWidth data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
+<VegaLite fullWidth data={ { "table": [ { "y": -0.418, "x": 1850 }, { "y": 0.923, "x": 2020 } ] } } spec={ { "$schema": "https://vega.github.io/schema/vega-lite/v4.json", "width": "container", "mark": "bar", "data": { "name": "table" }, "encoding": { "x": { "field": "x", "type": "ordinal" }, "y": { "field": "y", "type": "quantitative" } } } } />
 
 ## Line chart
 
