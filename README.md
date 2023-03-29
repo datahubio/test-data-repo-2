@@ -13,8 +13,45 @@ prices introduced in 1993.
 
 <FrictionlessView viewId={0} />
 
+
 ```
 <FrictionlessView fullWidth viewId={0} />
 ```
 
 <FrictionlessView fullWidth viewId={0} />
+
+
+## Table
+
+```
+<Table data={data/vix-daily.csv} />
+```
+
+<Table data={data/vix-daily.csv} />
+
+
+```
+<Table fullWidth data={data/vix-daily.csv} />
+```
+
+<Table fullWidth data={data/vix-daily.csv} />
+
+
+## Vega and Vega Lite
+
+TODO
+
+## Image
+
+```
+<Image src="https://i0.wp.com/abglt.org.br/wp-content/uploads/2020/10/wallpaper-pc1-scaled-1.jpg?fit=2560%2C1440&ssl=1">
+```
+
+<Image src="https://i0.wp.com/abglt.org.br/wp-content/uploads/2020/10/wallpaper-pc1-scaled-1.jpg?fit=2560%2C1440&ssl=1">
+
+
+```
+<Image fullWidth src="https://i0.wp.com/abglt.org.br/wp-content/uploads/2020/10/wallpaper-pc1-scaled-1.jpg?fit=2560%2C1440&ssl=1">
+```
+
+<Image fullWidth src="https://i0.wp.com/abglt.org.br/wp-content/uploads/2020/10/wallpaper-pc1-scaled-1.jpg?fit=2560%2C1440&ssl=1">
