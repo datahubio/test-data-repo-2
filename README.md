@@ -15,4 +15,4 @@ prices introduced in 1993.
 ```
 <FrictionlessView fullWidth viewId={0} />
 ```
-<FrictionlessView fullScreen viewId={0} />
+<FrictionlessView fullWidth viewId={0} />
