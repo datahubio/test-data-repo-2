@@ -24,17 +24,17 @@ prices introduced in 1993.
 ## Table
 
 ```
-<Table data={data/vix-daily.csv} />
+<Table url={data/vix-daily.csv} />
 ```
 
-<Table data={data/vix-daily.csv} />
+<Table url={data/vix-daily.csv} />
 
 
 ```
-<Table fullWidth data={data/vix-daily.csv} />
+<Table fullWidth url={data/vix-daily.csv} />
 ```
 
-<Table fullWidth data={data/vix-daily.csv} />
+<Table fullWidth url={data/vix-daily.csv} />
 
 
 ## Vega and Vega Lite
